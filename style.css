@@ -1,0 +1,43 @@
+.center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  font-family: "Courier New", Courier, monospace;
+  font-weight: 800;
+  background: linear-gradient(to right, #4663ac, #4caec3);
+  height: 500px;
+  width: 500px;
+}
+
+.center p {
+  padding-top: 0;
+  border-top: 0;
+  margin-top: 0;
+  position: relative;
+}
+
+.center h1 {
+  padding: 0;
+  border: 0;
+  margin: 0;
+  position: relative;
+  top: 0%;
+}
+
+.center img {
+  width: 100%;
+  max-width: 350px;
+  height: auto;
+  object-fit: contain;
+  border-bottom: 0;
+  padding-bottom: 0;
+  margin-bottom: 0;
+  padding-top: 25%;
+}
+
+.centerflex {
+  display: flex;
+  align-content: center;
+  justify-content: center;
+}
